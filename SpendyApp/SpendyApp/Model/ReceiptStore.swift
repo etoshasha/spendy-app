@@ -39,7 +39,14 @@ class ReceiptStore: ObservableObject {
       currency: .idr,
       date: Date(),
       items: "Milk, apples, chocolate, napkins",
-      exchangeRates: CurrencyRates(data: ["USD": 0.000064])
+      exchangeRates: CurrencyRates(data: [
+        "USD": 0.000064,
+        "CAD": 0.000087,
+        "HKD": 0.00051,
+        "EUR": 0.00006,
+        "IDR": 1,
+        "THB": 0.0023
+      ])
     ),
     Receipt(
       name: "Guardian",
@@ -48,7 +55,14 @@ class ReceiptStore: ObservableObject {
       currency: .usd,
       date: Date(),
       items: "Ibuprophen",
-      exchangeRates: CurrencyRates(data: ["USD": 1])),
+      exchangeRates: CurrencyRates(data: [
+        "USD": 1,
+        "CAD": 1.35,
+        "HKD": 7.81,
+        "EUR": 0.92,
+        "IDR": 15433.75,
+        "THB": 34.87
+      ])),
     Receipt(
       name: "Grandlucky",
       category: .groceries,
@@ -56,7 +70,14 @@ class ReceiptStore: ObservableObject {
       currency: .cad,
       date: Date(),
       items: "Cat food, banana, mango, orange juice, chicken breast, ground beef, cheese, burger buns",
-      exchangeRates: CurrencyRates(data: ["USD": 0.74])),
+      exchangeRates: CurrencyRates(data: [
+        "USD": 0.74,
+        "CAD": 1,
+        "HKD": 5.79,
+        "EUR": 0.68,
+        "IDR": 11432.83,
+        "THB": 26.06
+      ])),
     Receipt(
       name: "Lilla Pantai",
       category: .cafe,
@@ -64,7 +85,14 @@ class ReceiptStore: ObservableObject {
       currency: .idr,
       date: Date(),
       items: "Coffee, avocado toast",
-      exchangeRates: CurrencyRates(data: ["USD": 0.000064])),
+      exchangeRates: CurrencyRates(data: [
+        "USD": 0.000064,
+        "CAD": 0.000087,
+        "HKD": 0.00051,
+        "EUR": 0.00006,
+        "IDR": 1,
+        "THB": 0.0023
+      ])),
     Receipt(
       name: "Level XXI",
       category: .entertainment,
@@ -72,7 +100,14 @@ class ReceiptStore: ObservableObject {
       currency: .hkd,
       date: Date(),
       items: "2x Tickets to the cinema",
-      exchangeRates: CurrencyRates(data: ["USD": 0.13])),
+      exchangeRates: CurrencyRates(data: [
+        "USD": 0.13,
+        "CAD": 0.17,
+        "HKD": 1,
+        "EUR": 0.12,
+        "IDR": 1975.66,
+        "THB": 4.50
+      ])),
     Receipt(
       name: "Gas",
       category: .transport,
@@ -80,7 +115,14 @@ class ReceiptStore: ObservableObject {
       currency: .idr,
       date: Date(),
       items: "Gas for bike",
-      exchangeRates: CurrencyRates(data: ["USD": 0.000064])),
+      exchangeRates: CurrencyRates(data: [
+        "USD": 0.000064,
+        "CAD": 0.000087,
+        "HKD": 0.00051,
+        "EUR": 0.00006,
+        "IDR": 1,
+        "THB": 0.0023
+      ])),
     Receipt(
       name: "Koa Shala",
       category: .personal,
@@ -88,7 +130,14 @@ class ReceiptStore: ObservableObject {
       currency: .idr,
       date: Date(),
       items: "Balinese massage",
-      exchangeRates: CurrencyRates(data: ["USD": 0.000064])),
+      exchangeRates: CurrencyRates(data: [
+        "USD": 0.000064,
+        "CAD": 0.000087,
+        "HKD": 0.00051,
+        "EUR": 0.00006,
+        "IDR": 1,
+        "THB": 0.0023
+      ])),
     Receipt(
       name: "UNIQLO",
       category: .clothing,
@@ -96,7 +145,14 @@ class ReceiptStore: ObservableObject {
       currency: .thb,
       date: Date(),
       items: "3x White T-shirts, 3x Socks, 1x Shorts",
-      exchangeRates: CurrencyRates(data: ["USD": 0.028])),
+      exchangeRates: CurrencyRates(data: [
+        "USD": 0.028,
+        "CAD": 0.039,
+        "HKD": 0.22,
+        "EUR": 0.026,
+        "IDR": 442.61,
+        "THB": 1
+      ])),
     Receipt(
       name: "Trip.com",
       category: .travel,
@@ -104,7 +160,14 @@ class ReceiptStore: ObservableObject {
       currency: .idr,
       date: Date(),
       items: "Round-trip tickets to Bangkok",
-      exchangeRates: CurrencyRates(data: ["USD": 0.000064]))
+      exchangeRates: CurrencyRates(data: [
+        "USD": 0.000064,
+        "CAD": 0.000087,
+        "HKD": 0.00051,
+        "EUR": 0.00006,
+        "IDR": 1,
+        "THB": 0.0023
+      ]))
   ] {
     didSet {
       saveReceipt()

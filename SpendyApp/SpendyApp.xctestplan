@@ -1,0 +1,37 @@
+{
+  "configurations" : [
+    {
+      "id" : "FD71826D-89BC-4675-A32D-29CEC1EB9624",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:SpendyApp.xcodeproj",
+      "identifier" : "0968C6D82B1A06AB00856605",
+      "name" : "SpendyApp"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:SpendyApp.xcodeproj",
+        "identifier" : "0968C6E82B1A06AC00856605",
+        "name" : "SpendyAppTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:SpendyApp.xcodeproj",
+        "identifier" : "0968C6F22B1A06AC00856605",
+        "name" : "SpendyAppUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

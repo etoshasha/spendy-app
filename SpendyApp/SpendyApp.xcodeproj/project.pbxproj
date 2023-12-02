@@ -1,0 +1,736 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0968C6DD2B1A06AB00856605 /* SpendyAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0968C6DC2B1A06AB00856605 /* SpendyAppApp.swift */; };
+		0968C6DF2B1A06AB00856605 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0968C6DE2B1A06AB00856605 /* ContentView.swift */; };
+		0968C6E12B1A06AC00856605 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0968C6E02B1A06AC00856605 /* Assets.xcassets */; };
+		0968C6E42B1A06AC00856605 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0968C6E32B1A06AC00856605 /* Preview Assets.xcassets */; };
+		0968C6EE2B1A06AC00856605 /* SpendyAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0968C6ED2B1A06AC00856605 /* SpendyAppTests.swift */; };
+		0968C6F82B1A06AC00856605 /* SpendyAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0968C6F72B1A06AC00856605 /* SpendyAppUITests.swift */; };
+		0968C7072B1A06D300856605 /* FCAPI-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0968C7062B1A06D300856605 /* FCAPI-Info.plist */; };
+		0968C70F2B1A080D00856605 /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0968C70E2B1A080D00856605 /* LaunchScreen.swift */; };
+		09862EBE2B1A900200C80F5E /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09862EBD2B1A900200C80F5E /* Currency.swift */; };
+		09862EC02B1A902600C80F5E /* SettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09862EBF2B1A902600C80F5E /* SettingsStore.swift */; };
+		09862EC22B1A904700C80F5E /* ReceiptStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09862EC12B1A904700C80F5E /* ReceiptStore.swift */; };
+		09862EC52B1A908C00C80F5E /* CurrencyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09862EC42B1A908C00C80F5E /* CurrencyService.swift */; };
+		09862EC82B1A90C100C80F5E /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09862EC72B1A90C100C80F5E /* FileManager.swift */; };
+		09862ECA2B1A919A00C80F5E /* CategoryImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09862EC92B1A919A00C80F5E /* CategoryImageView.swift */; };
+		09862ECC2B1A91D200C80F5E /* PurchaseRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09862ECB2B1A91D200C80F5E /* PurchaseRowView.swift */; };
+		09862ECE2B1A91F000C80F5E /* ReceiptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09862ECD2B1A91F000C80F5E /* ReceiptView.swift */; };
+		09862ED02B1A922C00C80F5E /* AddButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09862ECF2B1A922C00C80F5E /* AddButtonView.swift */; };
+		09862ED62B1A929200C80F5E /* ManualReceiptAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09862ED52B1A929200C80F5E /* ManualReceiptAddView.swift */; };
+		09862ED82B1A92B900C80F5E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09862ED72B1A92B900C80F5E /* HomeView.swift */; };
+		09862EDA2B1A92D300C80F5E /* ReceiptTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09862ED92B1A92D300C80F5E /* ReceiptTabView.swift */; };
+		09862EDD2B1A938C00C80F5E /* CategoryPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09862EDC2B1A938C00C80F5E /* CategoryPickerView.swift */; };
+		09862EDF2B1A93A200C80F5E /* CurrencyPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09862EDE2B1A93A200C80F5E /* CurrencyPickerView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0968C6EA2B1A06AC00856605 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0968C6D12B1A06AB00856605 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0968C6D82B1A06AB00856605;
+			remoteInfo = SpendyApp;
+		};
+		0968C6F42B1A06AC00856605 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0968C6D12B1A06AB00856605 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0968C6D82B1A06AB00856605;
+			remoteInfo = SpendyApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0968C6D92B1A06AB00856605 /* SpendyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpendyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0968C6DC2B1A06AB00856605 /* SpendyAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpendyAppApp.swift; sourceTree = "<group>"; };
+		0968C6DE2B1A06AB00856605 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0968C6E02B1A06AC00856605 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0968C6E32B1A06AC00856605 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0968C6E92B1A06AC00856605 /* SpendyAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpendyAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0968C6ED2B1A06AC00856605 /* SpendyAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpendyAppTests.swift; sourceTree = "<group>"; };
+		0968C6F32B1A06AC00856605 /* SpendyAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpendyAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0968C6F72B1A06AC00856605 /* SpendyAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpendyAppUITests.swift; sourceTree = "<group>"; };
+		0968C7062B1A06D300856605 /* FCAPI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FCAPI-Info.plist"; sourceTree = "<group>"; };
+		0968C70E2B1A080D00856605 /* LaunchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreen.swift; sourceTree = "<group>"; };
+		09862EBD2B1A900200C80F5E /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		09862EBF2B1A902600C80F5E /* SettingsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsStore.swift; sourceTree = "<group>"; };
+		09862EC12B1A904700C80F5E /* ReceiptStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptStore.swift; sourceTree = "<group>"; };
+		09862EC42B1A908C00C80F5E /* CurrencyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyService.swift; sourceTree = "<group>"; };
+		09862EC72B1A90C100C80F5E /* FileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
+		09862EC92B1A919A00C80F5E /* CategoryImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryImageView.swift; sourceTree = "<group>"; };
+		09862ECB2B1A91D200C80F5E /* PurchaseRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseRowView.swift; sourceTree = "<group>"; };
+		09862ECD2B1A91F000C80F5E /* ReceiptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptView.swift; sourceTree = "<group>"; };
+		09862ECF2B1A922C00C80F5E /* AddButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddButtonView.swift; sourceTree = "<group>"; };
+		09862ED52B1A929200C80F5E /* ManualReceiptAddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualReceiptAddView.swift; sourceTree = "<group>"; };
+		09862ED72B1A92B900C80F5E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		09862ED92B1A92D300C80F5E /* ReceiptTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptTabView.swift; sourceTree = "<group>"; };
+		09862EDC2B1A938C00C80F5E /* CategoryPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryPickerView.swift; sourceTree = "<group>"; };
+		09862EDE2B1A93A200C80F5E /* CurrencyPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyPickerView.swift; sourceTree = "<group>"; };
+		09862EE02B1A9A2F00C80F5E /* SpendyApp.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = SpendyApp.xctestplan; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0968C6D62B1A06AB00856605 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0968C6E62B1A06AC00856605 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0968C6F02B1A06AC00856605 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0968C6D02B1A06AB00856605 = {
+			isa = PBXGroup;
+			children = (
+				09862EE02B1A9A2F00C80F5E /* SpendyApp.xctestplan */,
+				0968C6DB2B1A06AB00856605 /* SpendyApp */,
+				0968C6EC2B1A06AC00856605 /* SpendyAppTests */,
+				0968C6F62B1A06AC00856605 /* SpendyAppUITests */,
+				0968C6DA2B1A06AB00856605 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0968C6DA2B1A06AB00856605 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0968C6D92B1A06AB00856605 /* SpendyApp.app */,
+				0968C6E92B1A06AC00856605 /* SpendyAppTests.xctest */,
+				0968C6F32B1A06AC00856605 /* SpendyAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0968C6DB2B1A06AB00856605 /* SpendyApp */ = {
+			isa = PBXGroup;
+			children = (
+				0968C6DC2B1A06AB00856605 /* SpendyAppApp.swift */,
+				0968C7092B1A079B00856605 /* Views */,
+				09862EBC2B1A8FDE00C80F5E /* Model */,
+				09862EC32B1A906C00C80F5E /* Networking */,
+				09862EC62B1A90AB00C80F5E /* Extension */,
+				0968C6E02B1A06AC00856605 /* Assets.xcassets */,
+				0968C6E22B1A06AC00856605 /* Preview Content */,
+				0968C7062B1A06D300856605 /* FCAPI-Info.plist */,
+			);
+			path = SpendyApp;
+			sourceTree = "<group>";
+		};
+		0968C6E22B1A06AC00856605 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0968C6E32B1A06AC00856605 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0968C6EC2B1A06AC00856605 /* SpendyAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				0968C6ED2B1A06AC00856605 /* SpendyAppTests.swift */,
+			);
+			path = SpendyAppTests;
+			sourceTree = "<group>";
+		};
+		0968C6F62B1A06AC00856605 /* SpendyAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0968C6F72B1A06AC00856605 /* SpendyAppUITests.swift */,
+			);
+			path = SpendyAppUITests;
+			sourceTree = "<group>";
+		};
+		0968C7092B1A079B00856605 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0968C6DE2B1A06AB00856605 /* ContentView.swift */,
+				0968C70E2B1A080D00856605 /* LaunchScreen.swift */,
+				0968C70A2B1A07AF00856605 /* TabViews */,
+				0968C70C2B1A07D300856605 /* ReceiptViews */,
+				0968C70B2B1A07BC00856605 /* EditViews */,
+				09862EDB2B1A931C00C80F5E /* PickerViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0968C70A2B1A07AF00856605 /* TabViews */ = {
+			isa = PBXGroup;
+			children = (
+				09862ED72B1A92B900C80F5E /* HomeView.swift */,
+				09862ED92B1A92D300C80F5E /* ReceiptTabView.swift */,
+			);
+			path = TabViews;
+			sourceTree = "<group>";
+		};
+		0968C70B2B1A07BC00856605 /* EditViews */ = {
+			isa = PBXGroup;
+			children = (
+				09862ECF2B1A922C00C80F5E /* AddButtonView.swift */,
+				09862ED52B1A929200C80F5E /* ManualReceiptAddView.swift */,
+			);
+			path = EditViews;
+			sourceTree = "<group>";
+		};
+		0968C70C2B1A07D300856605 /* ReceiptViews */ = {
+			isa = PBXGroup;
+			children = (
+				09862ECD2B1A91F000C80F5E /* ReceiptView.swift */,
+				09862ECB2B1A91D200C80F5E /* PurchaseRowView.swift */,
+				09862EC92B1A919A00C80F5E /* CategoryImageView.swift */,
+			);
+			path = ReceiptViews;
+			sourceTree = "<group>";
+		};
+		09862EBC2B1A8FDE00C80F5E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				09862EBD2B1A900200C80F5E /* Currency.swift */,
+				09862EBF2B1A902600C80F5E /* SettingsStore.swift */,
+				09862EC12B1A904700C80F5E /* ReceiptStore.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		09862EC32B1A906C00C80F5E /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				09862EC42B1A908C00C80F5E /* CurrencyService.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		09862EC62B1A90AB00C80F5E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				09862EC72B1A90C100C80F5E /* FileManager.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		09862EDB2B1A931C00C80F5E /* PickerViews */ = {
+			isa = PBXGroup;
+			children = (
+				09862EDC2B1A938C00C80F5E /* CategoryPickerView.swift */,
+				09862EDE2B1A93A200C80F5E /* CurrencyPickerView.swift */,
+			);
+			path = PickerViews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0968C6D82B1A06AB00856605 /* SpendyApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0968C6FD2B1A06AC00856605 /* Build configuration list for PBXNativeTarget "SpendyApp" */;
+			buildPhases = (
+				0968C7082B1A071B00856605 /* ShellScript */,
+				0968C6D52B1A06AB00856605 /* Sources */,
+				0968C6D62B1A06AB00856605 /* Frameworks */,
+				0968C6D72B1A06AB00856605 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpendyApp;
+			productName = SpendyApp;
+			productReference = 0968C6D92B1A06AB00856605 /* SpendyApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0968C6E82B1A06AC00856605 /* SpendyAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0968C7002B1A06AC00856605 /* Build configuration list for PBXNativeTarget "SpendyAppTests" */;
+			buildPhases = (
+				0968C6E52B1A06AC00856605 /* Sources */,
+				0968C6E62B1A06AC00856605 /* Frameworks */,
+				0968C6E72B1A06AC00856605 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0968C6EB2B1A06AC00856605 /* PBXTargetDependency */,
+			);
+			name = SpendyAppTests;
+			productName = SpendyAppTests;
+			productReference = 0968C6E92B1A06AC00856605 /* SpendyAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0968C6F22B1A06AC00856605 /* SpendyAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0968C7032B1A06AC00856605 /* Build configuration list for PBXNativeTarget "SpendyAppUITests" */;
+			buildPhases = (
+				0968C6EF2B1A06AC00856605 /* Sources */,
+				0968C6F02B1A06AC00856605 /* Frameworks */,
+				0968C6F12B1A06AC00856605 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0968C6F52B1A06AC00856605 /* PBXTargetDependency */,
+			);
+			name = SpendyAppUITests;
+			productName = SpendyAppUITests;
+			productReference = 0968C6F32B1A06AC00856605 /* SpendyAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0968C6D12B1A06AB00856605 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					0968C6D82B1A06AB00856605 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					0968C6E82B1A06AC00856605 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 0968C6D82B1A06AB00856605;
+					};
+					0968C6F22B1A06AC00856605 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 0968C6D82B1A06AB00856605;
+					};
+				};
+			};
+			buildConfigurationList = 0968C6D42B1A06AB00856605 /* Build configuration list for PBXProject "SpendyApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0968C6D02B1A06AB00856605;
+			productRefGroup = 0968C6DA2B1A06AB00856605 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0968C6D82B1A06AB00856605 /* SpendyApp */,
+				0968C6E82B1A06AC00856605 /* SpendyAppTests */,
+				0968C6F22B1A06AC00856605 /* SpendyAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0968C6D72B1A06AB00856605 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0968C6E42B1A06AC00856605 /* Preview Assets.xcassets in Resources */,
+				0968C7072B1A06D300856605 /* FCAPI-Info.plist in Resources */,
+				0968C6E12B1A06AC00856605 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0968C6E72B1A06AC00856605 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0968C6F12B1A06AC00856605 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0968C7082B1A071B00856605 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "PATH=/opt/homebrew/bin:$PATH\nif [ -f ~/com.raywenderlich.swiftlint.yml ]; then\n  if which swiftlint >/dev/null; then\n    swiftlint --no-cache --config ~/com.raywenderlich.swiftlint.yml\n  fi\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0968C6D52B1A06AB00856605 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09862ECC2B1A91D200C80F5E /* PurchaseRowView.swift in Sources */,
+				09862EBE2B1A900200C80F5E /* Currency.swift in Sources */,
+				09862ED62B1A929200C80F5E /* ManualReceiptAddView.swift in Sources */,
+				09862EDD2B1A938C00C80F5E /* CategoryPickerView.swift in Sources */,
+				09862EDA2B1A92D300C80F5E /* ReceiptTabView.swift in Sources */,
+				0968C6DF2B1A06AB00856605 /* ContentView.swift in Sources */,
+				09862EC22B1A904700C80F5E /* ReceiptStore.swift in Sources */,
+				09862ECE2B1A91F000C80F5E /* ReceiptView.swift in Sources */,
+				0968C6DD2B1A06AB00856605 /* SpendyAppApp.swift in Sources */,
+				09862EDF2B1A93A200C80F5E /* CurrencyPickerView.swift in Sources */,
+				09862EC52B1A908C00C80F5E /* CurrencyService.swift in Sources */,
+				09862EC02B1A902600C80F5E /* SettingsStore.swift in Sources */,
+				09862ECA2B1A919A00C80F5E /* CategoryImageView.swift in Sources */,
+				0968C70F2B1A080D00856605 /* LaunchScreen.swift in Sources */,
+				09862ED82B1A92B900C80F5E /* HomeView.swift in Sources */,
+				09862ED02B1A922C00C80F5E /* AddButtonView.swift in Sources */,
+				09862EC82B1A90C100C80F5E /* FileManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0968C6E52B1A06AC00856605 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0968C6EE2B1A06AC00856605 /* SpendyAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0968C6EF2B1A06AC00856605 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0968C6F82B1A06AC00856605 /* SpendyAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0968C6EB2B1A06AC00856605 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0968C6D82B1A06AB00856605 /* SpendyApp */;
+			targetProxy = 0968C6EA2B1A06AC00856605 /* PBXContainerItemProxy */;
+		};
+		0968C6F52B1A06AC00856605 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0968C6D82B1A06AB00856605 /* SpendyApp */;
+			targetProxy = 0968C6F42B1A06AC00856605 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0968C6FB2B1A06AC00856605 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0968C6FC2B1A06AC00856605 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0968C6FE2B1A06AC00856605 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpendyApp/Preview Content\"";
+				DEVELOPMENT_TEAM = GNNF76S9R6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexandrabalzhieva.SpendyApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0968C6FF2B1A06AC00856605 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpendyApp/Preview Content\"";
+				DEVELOPMENT_TEAM = GNNF76S9R6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexandrabalzhieva.SpendyApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0968C7012B1A06AC00856605 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GNNF76S9R6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexandrabalzhieva.SpendyAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpendyApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpendyApp";
+			};
+			name = Debug;
+		};
+		0968C7022B1A06AC00856605 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GNNF76S9R6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexandrabalzhieva.SpendyAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpendyApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpendyApp";
+			};
+			name = Release;
+		};
+		0968C7042B1A06AC00856605 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GNNF76S9R6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexandrabalzhieva.SpendyAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpendyApp;
+			};
+			name = Debug;
+		};
+		0968C7052B1A06AC00856605 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GNNF76S9R6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexandrabalzhieva.SpendyAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpendyApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0968C6D42B1A06AB00856605 /* Build configuration list for PBXProject "SpendyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0968C6FB2B1A06AC00856605 /* Debug */,
+				0968C6FC2B1A06AC00856605 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0968C6FD2B1A06AC00856605 /* Build configuration list for PBXNativeTarget "SpendyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0968C6FE2B1A06AC00856605 /* Debug */,
+				0968C6FF2B1A06AC00856605 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0968C7002B1A06AC00856605 /* Build configuration list for PBXNativeTarget "SpendyAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0968C7012B1A06AC00856605 /* Debug */,
+				0968C7022B1A06AC00856605 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0968C7032B1A06AC00856605 /* Build configuration list for PBXNativeTarget "SpendyAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0968C7042B1A06AC00856605 /* Debug */,
+				0968C7052B1A06AC00856605 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0968C6D12B1A06AB00856605 /* Project object */;
+}

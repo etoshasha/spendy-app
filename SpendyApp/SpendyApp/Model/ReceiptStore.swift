@@ -116,6 +116,7 @@ class ReceiptStore: ObservableObject {
   }
 
   @MainActor
+  // swiftlint:disable all
   func addReceipt(
     name: String,
     category: Category,
@@ -137,6 +138,7 @@ class ReceiptStore: ObservableObject {
       exchangeRates: currencyRates)
     )
   }
+  // swiftlint:enable all
 
   private func loadReceipts() {
     guard FileManager.default.fileExists(atPath: receiptsJSONURL.path) else {
@@ -169,6 +171,7 @@ class ReceiptStore: ObservableObject {
     guard let currencyRates = try await service.getCurrencyRates(for: receiptCurrency) else {
       throw ReceiptErrors.failedToConvert
     }
+    // swiftlint:disable:next force_unwrapping
     let mainConversion = currencyRates.data[mainCurrency]!
     let convertedAmount = mainConversion * amount
     return convertedAmount

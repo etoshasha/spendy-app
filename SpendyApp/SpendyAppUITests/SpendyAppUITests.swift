@@ -9,6 +9,7 @@ import XCTest
 
 final class SpendyAppUITests: XCTestCase {
   var app: XCUIApplication!
+  // swiftlint:disable:previous implicitly_unwrapped_optional
 
   override func setUpWithError() throws {
     app = XCUIApplication()

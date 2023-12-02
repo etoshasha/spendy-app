@@ -11,6 +11,7 @@ import XCTest
 final class SpendyAppTests: XCTestCase {
   let timeout: TimeInterval = 6
   var currencyService: CurrencyService!
+  // swiftlint:disable:previous implicitly_unwrapped_optional
 
   override func setUp() {
     super.setUp()
@@ -24,6 +25,7 @@ final class SpendyAppTests: XCTestCase {
 
   func test_noServerResponse() {
     let expectation = expectation(description: "Server responds in reasonable time")
+    // swiftlint:disable:next force_unwrapping
     let url = URL(string: "freecurrency")!
     URLSession.shared.dataTask(with: url) { data, response, error in
       expectation.fulfill()

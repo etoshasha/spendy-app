@@ -21,7 +21,7 @@ More Features:
 # Dependencies 
 To run the app:
 
-1. Sign in at FreeCurrencyAPI, choose live currency rates, and get a Default Key (live).
+1. Sign in at https://app.freecurrencyapi.com/, choose live currency rates, and get a Default Key (live).
 2. In Xcode, create a plist named "FCAPI-Info.plist".
 3. Add a key/value pair: Key - API_KEY, Value - your key (String). 
 

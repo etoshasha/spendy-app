@@ -27,7 +27,7 @@ To run the app:
 
 # How requirements were achieved? 
 
-Project files grouped into folders and subfolders. 
+Project files grouped into folders and subfolders to follow MVVM model. 
 
 1. Folder Networking -> CurrencyService.swift:
 

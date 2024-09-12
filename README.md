@@ -1,5 +1,11 @@
-# Spendy App
+# Spendy
 Simplify receipt management by auto-converting total amounts to your preferred currency.
+
+![Launch screen](/SpendyApp/SpendyLaunchScreenMedium.jpeg)
+![Home screen](/SpendyApp/SpendyHomeScreenMedium.jpeg)
+
+![Add receipts](/SpendyApp/SpendyAddReceiptMedium.jpeg)
+![History Tab](/SpendyApp/SpendyHistoryTabMedium.jpeg)
 
 # How it works 
 
